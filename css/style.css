@@ -1,0 +1,38 @@
+body {
+  padding: 20px 10px;
+  max-width: 2000px;
+  margin: 0 auto; /* top and bottom margins, auto is automatic.  realize this is a similar note to
+  the example, but wanted to remember this*/
+  font-size: 1.4em;
+}   /*sets left and right margins to equal values, centers the body on the page. realize this is a similar note to
+  the example, but wanted to remember this*/
+p {
+  margin: 10px 0;
+}
+li {
+  font-size: 20px;
+  line-height: 44px; /* each line of text should occupy 44 pixels of height (good for mobile usage and fat fingers) again, notes to remember from example */
+}
+ h1 {
+   color: blue;
+ } 
+.lesson {
+  font-size: 25px;
+  text-align: center;
+  color: orange;
+}
+.concept {
+  font-size: 22px;
+  color: blue;
+}
+
+.concept-brief {
+  font-size: 20px;
+}
+
+.concept-description {
+  font-size: 18px;
+}
+.concept-list {
+  font-size: 16px;
+}
