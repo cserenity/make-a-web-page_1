@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Crystal Weddington</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!--Notes to submit for stage 0 -->
+<!--says don't need doc type <!DOCTYPE html> maybe this is where it is failing, 
+submitting again 
+<HTML>-->
+<head> 
+<title>Crystal's notes</title>
+  <link rel="stylesheet" type+"test/css" href="style.css">
+  </head>
+ <!--creating a div for each lesson -->
+  <div> <h1>Learning to Code</h1> </div>
+
+  <div class="lesson"><h2 id="lesson-1">Lesson 1: Basics of HTML</h2> </div>
+  <div class="concept"> <b>The WWW</b><br></div>
+
+  <div class="concept-brief"><em>Basic components comprising the web are: HTML, URLS, HTTP and Web Apps.</em></div><br>
+<div class="concept-description"><p>HTML is a hypertext markup language and is the main type of document on the web.  
+Types of files found on web include; plain text, images, videos and music. 
+  </p></div>
+  <div class="concept"><b>HTML</b><br></div>
+  <div class="concept-brief"><em>HTML is made up of tags and elements.</em></div> <br>
+<div class="concept-description"><p>There are several types of tags, the most important thing to remember about different types of tags
+is that they do not have to be remembered! <a href="www.google.com">Google</a> is your friend for finding a tag 
+that you have forgotten.  Elements usually have an opening and closing tag, however some tags do not require
+a closing tag.  A tag that does not need a closing tag is called a void tag.  A couple of examples of void tags
+  are the image tag, &lt;img&gt;, and the break tag &lt;br&gt;.  I just used <a href="www.google.com">Google</a> to figure out
+  how to show tags in text 
+  ;)!  Multiple tags can be nested.</p></div>
+
+  <div class="concept-brief"><em>White Space</em></div> <br>
+ <div class="concept-description"><p>
+  White space can be achieved using the &lt;br&gt; and &lt;p&gt; tags.  The &lt;br&gt; is an inline tag and needs no closing
+   tag. The &lt;p&gt; tag is a block tag and requires closing tag &lt;/p&gt;.</p> </div>
+
+  <div class="concept"><b>Key point</b><br></div>
+  <div class="concept-brief"><em>Computers are stupid</em></div><br>
+  <div class="concept-description"><p>Computers will do exactly what I tell them to do, as long as I am speaking their language!
+    While learning to code may not be as much fun as learning Italian, it will be much more useful for the 
+    long haul.  
+    </p>
+     </div>
+  <!--Stage 1 work session 1 notes -->
+  <div>
+  <div class="lesson">
+    <h3 id="lesson-2">Lesson 2: Creating structured documents using HTML</h3></div>
+  <div class="concept"> <b>HTML Structure</b></div><br></div>
+  <div class="concept-brief"><em>HTML is the language of the web; syntax and rules</em></div><br>
+    <div class="concept-description"><p>HTML elements are always rectangular even if they do not appear that way.  Thinking of text in terms of boxes
+    will help with web planning.  HTML boxifys the web.  These boxes are defined by the  &lt;div&gt; tag.  Each box starts
+      with &lt;div&gt; and ends with &lt;/div&gt;.</p></div>
+<div class="concept"><b>DOM</b><br></div>
+  <div class="concept-brief"><em>Document Object Model</em></div><br>
+    <div class="concept-description"><p>DOM is the tree-like structure of a page.  The tree is organized into <em>parent</em>and 
+      <em>child</em> nodes.  The DOM tree is upside down with root at the top and branches underneath.  
+      </p></div>
+<div class="concept"><b>CSS</b><br></div>
+  <div class="concept-brief"><em>Cascading Style Sheets</em></div><br>
+    <div class="concept-description"><p>CSS is the style language.  The look and formatting of a document are determined using CSS.</p></div>
+<div class="concept"><b>Key point</b></div><br>
+    <div class="concept-description"><p>Chrome shows the developers tool! Click on the the 3 bars on the top right of the <a href="www.google.com/chrome/">Chrome</a> 
+    tool bar. Then click tools and developers tools.  <b>Viola</b> the tree is displayed!  
+    Being a novice I thought this was pretty cool.  The tree is displayed on the left and the CSS
+      language on right.</p>    
+   </div>
+  <!--Stage 1 work session 2 notes -->
+  <div class="lesson">
+    <h4>Lesson 3: Adding CSS style to HTML structure</h4></div>
+<div class="concept"> <b>Spaces Matter!</b></div><br>
+  <div class="concept-brief"><em>Spaces Matter!</em></div><br>
+     <div class="concept-description"><p>This may seem like repetition to someone else reading, but this was my first major mistake.  I was driven
+       batty for a bit until I figured out I had too many spaces.  So <b>Spaces Matter.</b>
+         .description { color : red; } will not work if there is an extra <b>space</b>.  Spaces Matter.
+       </p></div>
+<div class="concept"><b>Search and Replace</b></div><br>
+  <div class="concept-brief"><em>CSS is the find a replace of coding. </em></div><br>
+  <div class="concept-description"><p>Breaking CSS down into the simplest understanding; a class of the element is entered, how it should be styled
+  is setup, then CSS will match the formatting for other elements with the same class.
+    </p></div>
+<div class="concept"><b>Order Matters</b></div><br>
+      <div class="concept-brief"><em>Order and rules go together in code much like they go together in life.</em></div><br>
+  <div class="concept-description"><p>  Styles are defined in different places.</p> </div>
+      <div class="concept-list"><ol>
+        <li>Browser default style</li>
+        <li>Stylesheet in a separate file.</li>
+        <li>Sytlesheet inside the HTML file</li>
+        <li>Inline with the element</li>
+        </ol> </div>     
+
+<div class="concept"><b>Specifics Matter</b></div><br> 
+  <div class="concept-brief"><em>Inheritance</em></div><br>
+      <div class="concept-description"><p>With inheritance, styles are applied to a specific element (parent) and its descendants (child). This
+      helps alleviate repetition in code.  An important note, descendants inherit text related properties, but not
+        box properties.
+        </p></div>
+  <div class="concept"><b>Repetition</b></div><br> 
+  <div class="concept-brief"><em>Don't make me repeat myself</em></div><br>
+  <div class="concept-description"><p>Repetition is bad, using CSS to avoid it is good.  
+    CSS allow the program writer to have a consistent style without constant repetition.  This is 
+    accomplished by linking a CSS style sheet to the HTML document. 
+        </p></div>
+<div class="concept"><b>Code, Test, Refine</b></div><br>
+  <div class="concept-brief"><em>If at first you don't succeed...</em></div><br>
+  <div class="concept-description"><p>Basic steps in coding:</p></div>
+        <div class="concept-list"><ol>
+        <li>Look for the boxes</li>
+        <li>Look for repeats; style and semantic elements</li>
+        <li>Write HTML</li>
+        <li>Apply styles from biggest to smallest</li>
+        <li>Fix what's broken</li>
+          </ol></div>
+        <div class="concept-description"><p>Code comments in CSS begin with /* and end with */.
+          </p></div>
+<div class="concept"><b>It's all about the BOX</b></div><br>
+  <div class="concept-brief"><em>And how it fits inside</em></div><br>
+      <div class="concept-description"><p>Width of the box is left border, left padding, width of content, right padding and right border.
+      This can be a challenge to keep recalculating, so we have border box (*{box-sizing: border-box;})
+      Border box includes border and padding and adjusts as necessary. No matter how you change the border 
+      and padding the size of the box stays the same.  The margin is not included.  I never did figure out how 
+      to change the margin.  I was not able to edit in dev tools, so if you are reading this and could give
+      me some guidance it would be greatly appreciated, I figure it will be important later. 
+        </p></div>
+      <div class="concept-description"><p>Not all browsers understand border box since it is relatively new.  Specific browser prefixes need to be 
+        included. <br>
+        *{
+<div class="concept-list">
+     -webkit- box-sizing:  border-box;<br>
+
+-moz- box-sizing:  border-box;<br>
+-ms- box-sizing:  border-box;<br>
+box-sizing:  border-box;
+} <br>
+        </div>
+
+  </div><br>
+  <div class="concept-brief"><em>Key points about box sizing</em></div><br>
+      <div class="concept-description"><p>Each HTML element is a box with 4 components, seems like geometry to me.  Since there are so
+        many components to juggle, it can be challenging to get the size of the box just right.  Boxes can
+        be set to a percent rather than pixels, or use border-box.  
+        </p></div>
+  <div class="concept-brief"><em>Box positioning</em></div><br>
+      <div class="concept-description"><p> Divs are block elements and will take up the entire width of a page.  Adding the rule display: flex; will 
+        allow divs to appear next to each other. 
+        </p></div>
+<div class="concept"><b>Check your work!</b></div><br>
+     <div>
+      <a href="//validator.w3.org/#validate_by_input">HTML</a><br>
+      <a href="//jigsaw.w3.org/css-validator/#validate_by_input">CSS</a>
+      </div>
+      <!--says don't need doc type <!DOCTYPE html> maybe this is where it is failing, 
+submitting again</HTML> -->
+
+</body>
+
+</html>
